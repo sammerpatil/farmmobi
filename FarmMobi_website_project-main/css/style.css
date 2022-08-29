@@ -1,0 +1,492 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+p {
+    font-size: 16px;
+}
+
+:root {
+    --primary: #023610;
+    --secondary: #000000;
+    --light: #F6FFF2;
+    --dark: #263A4F;
+}
+
+.brand-logo {
+    height: 40px;
+}
+
+.navbar-toggler {
+    color: black;
+}
+
+.btn {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 700;
+    transition: .5s;
+}
+
+.btn-primary,
+.btn-secondary {
+    color: #FFFFFF;
+}
+
+.btn-square {
+    width: 36px;
+    height: 36px;
+}
+
+.btn-sm-square {
+    width: 28px;
+    height: 28px;
+}
+
+.btn-lg-square {
+    width: 46px;
+    height: 46px;
+}
+
+.btn-square,
+.btn-sm-square,
+.btn-lg-square {
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+}
+
+
+
+.nav-link {
+    color: #000000;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: black;
+}
+
+
+.sticky-top.navbar-dark .navbar-nav .nav-link {
+    padding: 15px 10px;
+}
+
+.center-img {
+    height: 40px;
+    width: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+/* .hvr:hover {
+    background-color: #bbe7c3;
+    color: white;
+  } */
+
+.card-align {
+    margin-bottom: 10px;
+    box-shadow: 0px 2px 8px -6px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+
+}
+
+.card-body {
+    padding-top: 8%;
+    height: 15rem;
+    width: auto;
+}
+
+.card-container {
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 10px;
+
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 10%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 3rem;
+    height: 3rem;
+}
+
+
+.service-item {
+    box-shadow: 0 0 45px #888080;
+    transition: .5s;
+}
+
+#service {
+    padding-top: 0%;
+    margin-right: 10%;
+    justify-content: center;
+}
+
+.about i,
+.service-item i {
+    background-image: linear-gradient(var(--primary), var(--secondary));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: .5s;
+}
+
+/* .service-item:hover {
+    color: var(--light);
+    background:rgba(21, 255, 80, 0.258) !important;
+} */
+
+/* .service-item:hover i {
+    background-image: linear-gradient(var(--light), var(--secondary));
+} */
+
+.service-item:hover h4 {
+    transition: .5s;
+}
+
+.service-item:hover h4 {
+    color: var(--light);
+}
+
+
+
+.blog-item img {
+    transition: .5s;
+}
+
+.blog-item:hover img {
+    transform: scale(1.2);
+}
+
+.blog-overlay {
+    position: absolute;
+    padding: 30px;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    background: #bbe7c3;
+    z-index: 1;
+}
+
+
+.bg-footer {
+    background: linear-gradient(rgba(52, 173, 84, .7), rgba(52, 173, 84, .7)), center bottom no-repeat;
+    background-size: contain;
+}
+
+
+
+/* New css */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(37, 27, 27);
+    color: white;
+    text-align: center;
+}
+
+#cookiePopup {
+    background: white;
+    width: 20%;
+    position: fixed;
+    left: 10px;
+    top: 60%;
+    box-shadow: 0px 0px 15px #cccccc;
+    padding: 5px 10px;
+    z-index: 999;
+}
+
+#cookiePopup p {
+    text-align: left;
+    font-size: 15px;
+    color: #4e4e4e;
+}
+
+#cookiePopup button {
+    width: 40%;
+    border: navajowhite;
+    background: #097fb7;
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+}
+
+#language {
+    position: absolute;
+    left: 88%;
+    top: 1%;
+    z-index: 999;
+    width: 1%;
+    height: 1%;
+}
+
+#btn-back-to-top {
+    position: fixed;
+    left: 95%;
+    top: 75%;
+    height: 5%;
+    width: 50px;
+    color: #fcfcfc;
+    background-color: rgb(37, 27, 27);
+    border: 1px solid rgb(37, 27, 27);
+    border-radius: 15px;
+    z-index: 999;
+}
+
+#RequestforDemo {
+    width: 120px;
+    padding: 1%;
+    position: fixed;
+    left: 92%;
+    top: 60%;
+    z-index: 999;
+    padding-right: 10%;
+    border-radius: 50%;
+}
+.alert.alert-danger {
+    height: 100px;
+    width: 80px;
+    background-color: #097FB7;
+    border: 1px;
+    border-radius: 25px;
+}
+#Demobtn {
+    width: 20px;
+    background-color: black;
+    margin-left: 24px;
+    height: 25px;
+    border-radius: 25px;
+}
+
+#Demobtntxt {
+    color: white;
+}
+
+
+@media (max-width: 361px) {
+    .container-fluid{
+        width: 100%;
+    }
+    .container{
+        margin-left: 5%;
+    }
+    .navbar-nav{
+        
+        display: flex;
+        flex-direction: row;
+    }
+    .brand-logo{
+        margin-right:120px;
+    }
+    .navbar-brand{
+        width:40%;
+        margin-right: 2%;
+    }
+    #products {
+        margin-left: 0% !important;
+        padding-left: 0% !important;
+    }
+
+    .services{
+        margin-left: 0% !important;
+        padding-left: 0% !important;
+    }
+    .carousel{
+        width: 100% !important;
+    }
+    #RequestforDemo {
+        width: 120px;
+        padding: 1%;
+        position: fixed;
+        left: 55% !important;
+        top: 65%;
+        z-index: 999;
+        padding-right: 10%;
+        border-radius: 50%;
+    }
+    .header-carousel{
+        max-width: auto;
+        
+    }
+    #btn-back-to-top {
+        position: fixed;
+        left: 65% !important;
+        top: 75%;
+        height: 5%;
+        width: 50px;
+        color: #fcfcfc;
+        background-color: rgb(37, 27, 27);
+        border: 1px solid rgb(37, 27, 27);
+        border-radius: 15px;
+        z-index: 999;
+    }
+ 
+    .card-align {
+        margin-bottom: 10px;
+        box-shadow: 0px 2px 8px -6px;
+        text-align: center;
+        align-items: center;
+        align-content: center;
+    
+    }
+    
+    .card-body {
+        padding-top: 8%;
+        height: 15rem;
+        width: auto;
+    }
+    
+    .card-container {
+        text-align: center;
+        align-items: center;
+        align-content: center;
+        margin-top: 10px;
+    
+    }
+    
+    .carousel-control-prev,
+    .carousel-control-next {
+        width: 10%;
+    }
+    
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        width: 3rem;
+        height: 3rem;
+    }
+}
+
+
+/* contact form css */
+@media (min-width: 576px) {
+    .h-custom {
+        height: 130vh !important;
+    }
+
+    .navbar {
+        width: 100%;
+    }
+
+    .navbar-dark .navbar-nav .nav-link {
+        width: 98%;
+        margin-right: 2%;
+    }
+
+    .brand-logo {
+        height: 40px;
+        width: 90% !important;
+    }
+
+    .navbar .nav-item {
+        display: flex;
+        flex-direction: column;
+        width: auto !important;
+
+    }
+
+    #language {
+        position: absolute;
+        left: 48%;
+        top: 75%;
+        z-index: 999;
+        width: 10%;
+    }
+
+    .bg-indigo {
+        background-color: #207920;
+    }
+
+    @media (min-width: 576px) {
+        .card-registration-2 .bg-indigo {
+            border-top-right-radius: 15px;
+            border-bottom-right-radius: 15px;
+        }
+    }
+
+    @media (max-width: 576px) {
+        .card-registration-2 .bg-indigo {
+            border-bottom-left-radius: 15px;
+            border-bottom-right-radius: 15px;
+        }
+
+        .text-dark {
+            margin-top: 0px;
+        }
+
+    }
+
+    .hvr:hover {
+        background-color: #006546;
+        color: white;
+    }
+
+
+    #language {
+        position: absolute;
+        left: 88%;
+        top: 2%;
+        z-index: 999;
+        width: 1%;
+        height: 1%;
+    }
+
+    #Demobtn {
+        background-color: #097fb7;
+        border: 1px solid green;
+        border-radius: 10px;
+        color: rgb(255, 255, 254);
+        z-index: 999;
+        width: 12%;
+
+    }
+
+
+    .aboutfeature {
+        height: 32%;
+    }
+
+
+
+
+    /* Custom scollbar */
+    /* width */
+    ::-webkit-scrollbar {
+        width: 10px;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 5px grey;
+        border-radius: 20px;
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        background: rgb(116, 110, 110);
+        border-radius: 20px;
+    }
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: #7f9242;
+    }
+
+  
+}
